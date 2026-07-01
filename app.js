@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 if(process.env.NODE_ENV != "production"){
    require('dotenv').config();
 }
@@ -122,6 +121,4 @@ app.use((err,req,res,next) => {
 app.listen(8080,()=>{
     console.log("app is listening at port 8080");
 });
-=======
-//add a feature
->>>>>>> 5787948d427ee4a0643d5b1d6fdf70e2ece35f4f
+
